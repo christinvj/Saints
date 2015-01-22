@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- 2 parts to an HTML file: the head and the body -->
+    
+    <!-- Head contains information about HTML file, like its title. 	The title is what we see in the browser's title bar or page  tab. -->
+    <head>
+    
+    	<!-- Link to CSS file -->
+    	<link type="text/css" rel="stylesheet" href="cssheet.css"/>
+    	
+        <title>SAINTS</title>
+    </head>
+    
+    <!-- The body is where you put your content, such as text,     	images, and links. The content in the body is what will be   visible on the actual page. -->
+    <body>
+    	
+    	<!-- There are six headings in HTML -->
+    	<h1> WELCOME </h1>
+        <p id="p1"> Welcome to this site.</p>
+        <p id="p2"> Here you can read about <strong><span style="font-family: arial">SAINTS</strong></span>.</p>
+        
+        <!-- We can add references(hyperlinks) to other sites -->
+        <p>Another site about 
+        <a href="http://www.catholic.org/saints/">Catholic Saints.</a>
+        </p>
+        
+        <!-- We can add images and they can be made links -->
+        <p style="font-size: 20px; color: #FF6600; font-family: Trebuchet MS; text-align: center""> My favourite saint</br></br>		<!-- </br> gives Line break -->
+        <a href="http://www.catholic.org/saints/saint.php?saint_id=50"> <img src="http://saints.sqpn.com/saintf01.jpg" style="text-align: center"/> </a>
+        </p>
+        <p><em>Can you guess who he is?</em>  If you don't click on the image to see who he is.
+        </p>
+                
+        <!-- Ordered lists can be added using <ol> </ol> -->
+        <!-- Unordered lists can be added using <ul> </ul> -->
+        <!-- Lists can be given inside another list (NESTING) -->
+        <div id="div1">
+        
+        <!-- Instead of "px" we can use "em" (eg: 20em) which is relative. It will be handy when designing for small screens -->
+        
+        <h4> What can you do here? </h4>
+        	<ol>
+        		<li>Search for saints
+        			<ul>
+        				<li>Your favourite</li>
+        				<li>Unknown to you</li>
+        			</ul>
+        		</li>
+        		<li>Read about Saints</li>
+        		<li>Add corrections</li>
+        	</ol>
+        </h4>
+        </div>
+        
+        <br>
+        <div style="width: 250px; height: 20px; background-color: #F8AAAA">
+        <strong>Some saints</strong>
+        <!-- Tables can be added -->
+        </div>
+        
+        <table border="1px dashed">
+        
+        <thead>
+        	<tr>
+        		<th colspan="2">Saints</th>
+        	<tr>
+	        	<th>Name</th>
+        		<th>Century</th>
+        	</tr>
+        </thead>
+        
+        <tbody>
+	        <tr>
+	        	<td>St. Francis of Assissi</td>
+	        	<td>12</td>
+	        </tr>
+	        <tr>
+	        	<td>St. Augustine of Canterbury</td>
+	        	<td>6</td>
+	        </tr>
+	</tbody>
+	</table>
+    </body>
+</html>
