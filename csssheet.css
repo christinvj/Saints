@@ -1,0 +1,122 @@
+/* In CSS comments are like this*/
+
+/* CSS Syntax
+
+	selector 
+	{
+	    property: value;
+	}
+*/
+
+/* Universal selector
+
+	*
+	{
+	    property: value;
+	}	
+*/
+
+
+/*
+	margin
+	
+	border
+	
+	padding
+	
+	content
+*/
+	
+h1
+{
+	text-align: center;
+}
+
+a:link
+{
+    text-decoration:none;
+    color:#008b45;
+}
+a:visited
+{
+    color: #EE9A00;
+}
+
+a:hover
+{
+    color:#00ff00;
+}
+
+body
+{
+	background-color: #D8D8D8;
+}
+
+/*  Make sure to leave a space between body and :nth-child. If you don't have a space it means "find the body tag that is an nth-child". If you have a space it means "find the nth-child of the body tag".  */
+
+body :nth-child(4)
+{
+	font-size:20px;
+	background-color: #F0F0F0;
+}
+	
+h4
+{
+	background-color: #68A2A9;
+}
+
+#div1
+{
+	width: 250px;
+	height: 150px;
+	background-color: #C8C8C8;
+	margin: 13px 12px 11px 50px;  /* Same as 
+						margin-top: 13px;
+						margin-right: 12px;
+						margin-bottom:11px;
+						margin-left: 5px;
+				     */
+	/* margin: 100px;   --> Makes all sides 20px. */
+	
+	/* Giving negative values moves the other way */
+	
+	padding: 10px;		     
+}
+/* Cascading */
+
+ul li
+{
+	font-size: 13px;
+}
+
+/*  Classes */
+
+.class
+{
+}
+
+/* Ids */
+
+#p1 
+{
+	color:#BC673C;
+}	
+	
+#p2
+{
+	color:#6F9A19;
+
+}
+	
+/*div
+{
+    height: 50px;
+    width:120px;
+    border-color: #6495ed;
+    background-color: #bcd2ee;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 5px;		--> Shapes the corners
+    margin:auto;    		--> Tells that margin to this should be equal from both sides
+}*/
